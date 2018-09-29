@@ -1,11 +1,11 @@
 import React, { Component} from "react";
-import "./App.css";
+import CrewPage from "./components/CrewPage";
 
 class App extends Component{
   render(){
     return(
-      <div className="App">
-        <h1>Crew application</h1>
+      <div>
+        <CrewPage />
       </div>
     );
   }

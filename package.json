@@ -5,19 +5,36 @@
   "dependencies": {
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
+    "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-request": "^3.1.2",
     "style-loader": "^0.23.0",
-    "webpack-cli": "^3.1.1",
+    "styled-components": "^3.4.9",
     "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode development"
   },
   "author": "Ben Aleksandr",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazy-code/crew_application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lazy-code/crew_application/issues"
+  },
+  "homepage": "https://github.com/lazy-code/crew_application#readme"
 }
